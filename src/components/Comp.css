@@ -1,0 +1,121 @@
+.major-skills{
+    margin:23px;
+}
+
+.skills-h2{
+    font-size:2rem;
+}
+
+.ul-details{
+    margin:10px;
+    padding:12px;
+    font-size:1.6rem;
+}
+.project-title{
+    text-align:center;
+    margin:10px;
+    padding:5px;
+}
+
+.tech-details{
+    font-size:1rem;
+    margin-top:14px;
+    margin-left:12px;
+    color:rgb(194, 255, 255)
+}
+/* Container for the portfolio section */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Spacing between project cards */
+    padding: 20px; /* Padding around the entire portfolio section */
+  }
+  
+  /* Styles for individual project cards */
+  .project-item {
+    background-color: #1e293b; /* Darker background for contrast */
+    padding: 20px; /* Consistent padding within each project item */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .project-title {
+    font-size: 1.5rem; /* Larger font for titles */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; /* Spacing below the title */
+    color: #ffda79; /* Accent color for titles */
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify; 
+  }
+  
+  .tech-details {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #94a3b8; /* Light color for tech details */
+  }
+  /* Ensure full height and spacing */
+.bg-gradient-to-b {
+    min-height: 100vh; /* Ensures the section takes up full viewport height */
+  }
+  
+  .experience-details {
+    margin-top: 2rem; /* Adds margin to separate from previous content */
+  }
+  
+  /* Ensure content inside is properly spaced */
+  .major-skills {
+    margin-bottom: 2rem; /* Adds space below major skills section */
+  }
+  
+  .publication-item {
+    margin-bottom: 2rem; /* Adds space below each publication item */
+  }
+  
+  ul {
+    padding-left: 1.5rem; /* Indent list items */
+  }
+  
+/* General styles for the portfolio section */
+.bg-gradient-to-b {
+    min-height: 100vh; /* Ensure the section covers full viewport height */
+  }
+  
+  .portfolio-container {
+    margin-top: 2rem; /* Add space above the portfolio container */
+  }
+  
+  .project-item {
+    background-color: #1f1f1f; /* Dark background for project items */
+    padding: 1rem; /* Internal padding */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  }
+  
+  /* Text styles */
+  .project-title {
+    color: #e0e0e0; /* Light color for the project title */
+  }
+  
+  .project-description {
+    color: #b0b0b0; /* Slightly lighter color for description */
+  }
+  
+  .tech-details {
+    color: #a0a0a0; /* Light gray color for technology details */
+  }
+  .phone-details{
+    margin-top:20px;
+  }
+  
