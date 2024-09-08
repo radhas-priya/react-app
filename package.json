@@ -1,5 +1,10 @@
 { 
+<<<<<<< HEAD
   "name": "jaismeenkaurportfolio",
+=======
+  "homepage": "https://radhas-priya.github.io/portfolio-react",
+  "name": "portfolio-react-live",
+>>>>>>> origin/main
   "version": "0.1.0",
   "private": true,
   "dependencies": {
